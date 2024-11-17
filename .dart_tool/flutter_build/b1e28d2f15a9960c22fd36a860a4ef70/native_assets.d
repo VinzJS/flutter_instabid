@@ -1,0 +1,1 @@
+ D:\\Projects\\flutter_instabid\\.dart_tool\\flutter_build\\b1e28d2f15a9960c22fd36a860a4ef70\\native_assets.yaml: 

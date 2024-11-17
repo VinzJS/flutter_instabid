@@ -1,0 +1,4 @@
+#Sun Nov 17 16:35:52 CST 2024
+base.0=D\:\\Projects\\flutter_instabid - Copy\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
