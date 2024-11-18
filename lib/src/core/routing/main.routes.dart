@@ -13,13 +13,7 @@ part 'routes/store.routes.dart';
 part 'routes/category.routes.dart';
 part 'routes/user.routes.dart';
 
-///
-/// Just the same ussage for the basic go router but with generated routes so no need to recreate routes every time
-/// 
-/// taken from this same with setup for bottom nav bar
-/// https://medium.com/@zahidulislam.pubalibank/go-router-an-efficient-way-to-manage-flutter-navigation-development-process-8a4c03e69066
-/// 
-///
+
 
 typedef TypeRouteData = TypedRoute<RouteData>;
 

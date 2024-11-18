@@ -21,9 +21,7 @@ class BidCreatePage extends HookConsumerWidget {
     ///
     final isLoading = useState(false);
 
-    ///
-    /// formKey is used for controlling the form
-    ///
+ 
     final formKey = useMemoized(() => GlobalKey<FormBuilderState>());
 
     ///
@@ -31,10 +29,7 @@ class BidCreatePage extends HookConsumerWidget {
     ///
     final state = ref.watch(bidCreateControllerProvider(id));
 
-    ///
-    /// Submits the form and if successful, pops the route with the new [Bid]
-    /// otherwise shows a snackbar with the error message.
-    ///
+ 
     onSubmit() async {
       final confirmResult = await ConfirmModal.show(
         context,

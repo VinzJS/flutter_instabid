@@ -32,9 +32,7 @@ class ElapsedTimeView extends HookWidget {
     }
   }
 
-  ///
-  /// Will build the string of the remaining time
-  ///
+  
   String _formatDuration(Duration duration) {
     final years = duration.inDays ~/ 365;
     final months = (duration.inDays % 365) ~/ 30;
@@ -58,10 +56,7 @@ class ElapsedTimeView extends HookWidget {
   Widget build(BuildContext context) {
     final now = useState(DateTime.now());
 
-    ///
-    /// the Timer.peridoic will update the now value every second so that
-    /// the UI can be updated.
-    ///
+  
     useEffect(() {
       final timer = Timer.periodic(const Duration(seconds: 1), (_) {
         now.value = DateTime.now();

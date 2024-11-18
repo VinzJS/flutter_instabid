@@ -49,11 +49,8 @@ class AppRoot extends HookConsumerWidget {
     };
 
     ///
-    /// Handles the route change. In short this will be called when the button
-    /// in the bottom nav bar is tapped. Like the icon in the bottom nav bar
-    /// ex. if home is tapped it will go to the home page and this will also be
-    /// called
-    ///
+    /// Handles the route change. 
+   
     onRouteChanged(int index) {
       final item = items[index];
       if (item != null) {
@@ -73,12 +70,7 @@ class AppRoot extends HookConsumerWidget {
 
     final index = checkIndex(shell.currentIndex, items.length);
 
-    ///
-    /// will determine if the bottom nav bar should be visible
-    /// if true bottomNav will be shown if false it will be hidden
-    ///
-    /// will only show roots that are in the rootRoutes. if not it wont show it.
-    ///
+ 
     bool shouldShowBottomNav(String? path) {
       final rootRoutes = [
         PublicProductsPageRoute.path,
@@ -90,14 +82,10 @@ class AppRoot extends HookConsumerWidget {
     }
 
     return Scaffold(
-      ///
-      /// this will be the content of your app
-      ///
+ 
       body: shell,
 
-      ///
-      /// the bottom bar. the 4 icon button in the root of the app.
-      ///
+ 
       bottomNavigationBar: shouldShowBottomNav(state.fullPath)
           ? Column(
               mainAxisSize: MainAxisSize.min,

@@ -1,10 +1,7 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+
 
 part of 'main.routes.dart';
 
-// **************************************************************************
-// GoRouterGenerator
-// **************************************************************************
 
 List<RouteBase> get $appRoutes => [
       $notFoundRoute,

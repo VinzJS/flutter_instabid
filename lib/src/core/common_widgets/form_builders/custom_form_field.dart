@@ -8,8 +8,7 @@ import 'package:searchfield/searchfield.dart';
 ///
 /// This is used for handling searchable dropdown fields
 /// the `T` represents the type of the search result
-/// so when you create a  you can declare it to be any type that fits your need
-///
+
 class CustomFormField<T> extends HookConsumerWidget {
   final String name;
   final bool enabled;
@@ -24,56 +23,29 @@ class CustomFormField<T> extends HookConsumerWidget {
   const CustomFormField({
     super.key,
 
-    ///
-    /// A widget for handling searchable dropdown fields.
-    ///
+ 
     this.enabled = true,
 
-    ///
-    ///  when the field is submitted this value transformer will be called and
-    ///  and whatever the value is returned will be the return value will be
-    ///  result value this can be any type you want it does not need to be
-    ///  similar to T
-    ///
+ 
     this.valueTransformer,
 
-    ///
-    /// this will represent the name of the field. this will be the key when the
-    /// result is created.
-    ///
     required this.name,
 
-    ///
-    /// will handle the changes on the field value.
-    ///
+ 
     required this.onChanged,
 
-    ///
-    /// this function will be called when the user types something in the field
-    /// then it expects to return a list of the T type
-    ///
+  
     required this.onSearch,
 
-    ///
-    /// this is also a builder but this will be called when an item form the
-    /// suggestions is displayed. in short this will determine what your search
-    /// dropdown will look like.
-    ///
+  
     required this.onChild,
 
-    ///
-    /// this is the widget that will be shown when an item is selected
-    ///
+ 
     required this.selectedBuilder,
 
-    ///
-    /// for decoration purposes. this will show as the helper text
-    ///
+  
     this.hint,
 
-    ///
-    /// added this so that the search will only work every 500 milliseconds
-    ///
     this.debounce = const Duration(milliseconds: 500),
   });
 

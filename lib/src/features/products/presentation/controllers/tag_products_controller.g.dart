@@ -1,22 +1,20 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+
 
 part of 'tag_products_controller.dart';
 
-// **************************************************************************
-// RiverpodGenerator
-// **************************************************************************
+
 
 String _$tagProductsControllerHash() =>
     r'25f557b9dee5617602c78634c1204b4fbb4a6ae3';
 
-/// Copied from Dart SDK
+
 class _SystemHash {
   _SystemHash._();
 
   static int combine(int hash, int value) {
-    // ignore: parameter_assignments
+   
     hash = 0x1fffffff & (hash + value);
-    // ignore: parameter_assignments
+
     hash = 0x1fffffff & (hash + ((0x0007ffff & hash) << 10));
     return hash ^ (hash >> 6);
   }
@@ -39,16 +37,16 @@ abstract class _$TagProductsController
   );
 }
 
-/// See also [TagProductsController].
+ [TagProductsController].
 @ProviderFor(TagProductsController)
 const tagProductsControllerProvider = TagProductsControllerFamily();
 
-/// See also [TagProductsController].
+ [TagProductsController].
 class TagProductsControllerFamily extends Family<AsyncValue<TagProductResult>> {
-  /// See also [TagProductsController].
+  [TagProductsController].
   const TagProductsControllerFamily();
 
-  /// See also [TagProductsController].
+  [TagProductsController].
   TagProductsControllerProvider call(
     String tagId,
   ) {
@@ -163,7 +161,7 @@ class TagProductsControllerProvider
 // ignore: unused_element
 mixin TagProductsControllerRef
     on AutoDisposeAsyncNotifierProviderRef<TagProductResult> {
-  /// The parameter `tagId` of this provider.
+
   String get tagId;
 }
 

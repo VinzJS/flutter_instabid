@@ -1,10 +1,7 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+
 
 part of 'router.dart';
 
-// **************************************************************************
-// RiverpodGenerator
-// **************************************************************************
 
 String _$routerHash() => r'58168d5b8450617c3a573c6fdacf7a16ac4417a0';
 

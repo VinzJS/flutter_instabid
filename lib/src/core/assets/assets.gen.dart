@@ -1,25 +1,18 @@
-/// GENERATED CODE - DO NOT MODIFY BY HAND
-/// *****************************************************
-///  FlutterGen
-/// *****************************************************
 
-// coverage:ignore-file
-// ignore_for_file: type=lint
-// ignore_for_file: directives_ordering,unnecessary_import,implicit_dynamic_list_literal,deprecated_member_use
 
 import 'package:flutter/widgets.dart';
 
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
-  /// File path: assets/icons/app_icon.png
+  
   AssetGenImage get appIcon => const AssetGenImage('assets/icons/app_icon.png');
 
-  /// File path: assets/icons/app_icon_transparent.png
+
   AssetGenImage get appIconTransparent =>
       const AssetGenImage('assets/icons/app_icon_transparent.png');
 
-  /// List of all assets
+ 
   List<AssetGenImage> get values => [appIcon, appIconTransparent];
 }
 
